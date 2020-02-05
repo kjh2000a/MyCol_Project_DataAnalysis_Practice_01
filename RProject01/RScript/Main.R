@@ -12,8 +12,8 @@ library(stringr)
 
 ##### Global Var
 #----
-str_FixedPath <- './Data/FixedData/'
-str_OriginPath <- './Data/OriginalData/'
-v_Extension <- c(csv = '.csv', xlsx = '.xlsx', xls = '.xls')
+gstr_FixedPath <- './Data/FixedData/'
+gstr_OriginPath <- './Data/OriginalData/'
+gv_Extension <- c(csv = '.csv', xlsx = '.xlsx', xls = '.xls')
 #---- 
-list_DataBase <- list()
+glist_DataBase <- list()
